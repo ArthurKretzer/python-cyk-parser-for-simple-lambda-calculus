@@ -1,0 +1,10 @@
+9
+x
+y
+(lambda (x) (x y))
+(lambda (y) (x y))
+((lambda(x)x)(x y))
+(lambda (y) (lambda (z) (x (y z))))
+marmota
+lambda(x)x
+(lambda(x)x)
