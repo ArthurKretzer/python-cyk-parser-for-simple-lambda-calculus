@@ -1,0 +1,7 @@
+6
+x
+y
+(lambda (x) (x y))
+(lambda (y) (x y))
+( (lambda (x) x) (x y) )
+( lambda (y) ( lambda (z) (x (y z)) ) )

@@ -14,4 +14,5 @@ clean:
 	rm -f $(TARGET)
 
 run: $(TARGET)
-	./$(TARGET) < input.txt
+	@echo $(TARGET)
+	./$(TARGET) < sample_input.txt
